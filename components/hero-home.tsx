@@ -1,5 +1,5 @@
 import ModalVideoIphone from "@/components/modal-video-iphone";
-import VideoThumb from "@/public/images/mockup-image-01.jpg";
+import VideoThumb from "@/public/images/mockup-image-01.webp";
 
 export default function HeroHome() {
   return (
