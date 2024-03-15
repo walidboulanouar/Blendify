@@ -1,9 +1,7 @@
 "use client";
 
 import { Transition } from "@headlessui/react";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import Logo from "./logo";
 import ThemeToggle from "./theme-toggle";
 
 export default function MobileMenu() {
