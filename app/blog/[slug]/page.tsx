@@ -8,7 +8,7 @@ import Newsletter from '@/components/newsletter'
 import RelatedPosts from '@/components/related-posts-02'
 
 export async function generateStaticParams() {
-  return allPosts.map((post) => ({
+  return allPosts.map((post:any) => ({
     slug: post.slug,
   }))
 }
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: {
   params: { slug: string }
 }): Promise<Metadata | undefined> {
 
-  const post = allPosts.find((post) => post.slug === params.slug)
+  const post = allPosts.find((post:any) => post.slug === params.slug)
 
   if (!post) return
 
@@ -33,7 +33,7 @@ export default async function SinglePost({ params }: {
   params: { slug: string }
 }) {
 
-  const post = allPosts.find((post) => post.slug === params.slug)
+  const post = allPosts.find((post:any) => post.slug === params.slug)
 
   if (!post) notFound()
 

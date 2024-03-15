@@ -1,48 +1,52 @@
-'use client'
+"use client";
 
-import { useState, useRef, useEffect } from 'react'
-import { Transition } from '@headlessui/react'
-import Link from 'next/link'
-import Logo from './logo'
-import ThemeToggle from './theme-toggle'
+import { Transition } from "@headlessui/react";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import Logo from "./logo";
+import ThemeToggle from "./theme-toggle";
 
 export default function MobileMenu() {
-  const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
+  const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
 
-  const trigger = useRef<HTMLButtonElement>(null)
-  const mobileNav = useRef<HTMLDivElement>(null)
+  const trigger = useRef<HTMLButtonElement>(null);
+  const mobileNav = useRef<HTMLDivElement>(null);
 
   // close the mobile menu on click outside
   useEffect(() => {
     const clickHandler = ({ target }: { target: EventTarget | null }): void => {
       if (!mobileNav.current || !trigger.current) return;
-      if (!mobileNavOpen || mobileNav.current.contains(target as Node) || trigger.current.contains(target as Node)) return;
-      setMobileNavOpen(false)
+      if (
+        !mobileNavOpen ||
+        mobileNav.current.contains(target as Node) ||
+        trigger.current.contains(target as Node)
+      )
+        return;
+      setMobileNavOpen(false);
     };
-    document.addEventListener('click', clickHandler)
-    return () => document.removeEventListener('click', clickHandler)
-  })
+    document.addEventListener("click", clickHandler);
+    return () => document.removeEventListener("click", clickHandler);
+  });
 
   // close the mobile menu if the esc key is pressed
   useEffect(() => {
     const keyHandler = ({ keyCode }: { keyCode: number }): void => {
       if (!mobileNavOpen || keyCode !== 27) return;
-      setMobileNavOpen(false)
+      setMobileNavOpen(false);
     };
-    document.addEventListener('keydown', keyHandler)
-    return () => document.removeEventListener('keydown', keyHandler)
-  })
+    document.addEventListener("keydown", keyHandler);
+    return () => document.removeEventListener("keydown", keyHandler);
+  });
 
   return (
     <div className="inline-flex md:hidden">
-
       {/* Mobile lights switch */}
       <ThemeToggle className="mr-6" />
 
       {/* Hamburger button */}
       <button
         ref={trigger}
-        className={`hamburger ${mobileNavOpen && 'active'}`}
+        className={`hamburger ${mobileNavOpen && "active"}`}
         aria-controls="mobile-nav"
         aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
@@ -73,12 +77,15 @@ export default function MobileMenu() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="py-6 pr-4 pl-20">
-            {/* Logo */}
-            <Link href="/" className="inline-block mb-4" aria-label="Cruip" onClick={() => setMobileNavOpen(false)}>
+          {/* <div className="py-6 pr-4 pl-20">
+            <Link
+              href="/"
+              className="inline-block mb-4"
+              aria-label="Blendify"
+              onClick={() => setMobileNavOpen(false)}
+            >
               <Logo />
             </Link>
-            {/* Links */}
             <ul>
               <li>
                 <Link
@@ -108,7 +115,9 @@ export default function MobileMenu() {
                 </Link>
               </li>
               <li className="py-2 my-2 border-t border-b border-gray-200 dark:border-gray-800">
-                <span className="flex text-gray-600 dark:text-gray-400 py-2">Resources</span>
+                <span className="flex text-gray-600 dark:text-gray-400 py-2">
+                  Resources
+                </span>
                 <ul className="pl-4">
                   <li>
                     <Link
@@ -140,9 +149,9 @@ export default function MobileMenu() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </Transition>
       </div>
     </div>
-  )
+  );
 }

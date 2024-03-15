@@ -1,15 +1,15 @@
 export const metadata = {
-  title: 'About - Appy',
-  description: 'Page description',
-}
+  title: "About - Blendify",
+  description: "Page description",
+};
 
-import Hero from '@/components/hero-about'
-import FeaturesGallery from '@/components/features-gallery'
-import Timeline from '@/components/timeline'
-import Career from '@/components/career'
-import FeaturesAnimation from '@/components/features-animation'
-import Team from '@/components/team'
-import CtaContact from '@/components/cta-contact'
+import Career from "@/components/career";
+import CtaContact from "@/components/cta-contact";
+import FeaturesAnimation from "@/components/features-animation";
+import FeaturesGallery from "@/components/features-gallery";
+import Hero from "@/components/hero-about";
+import Team from "@/components/team";
+import Timeline from "@/components/timeline";
 
 export default function About() {
   return (
@@ -22,5 +22,5 @@ export default function About() {
       <Team />
       <CtaContact />
     </>
-  )
+  );
 }

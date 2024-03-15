@@ -1,23 +1,26 @@
 export const metadata = {
-  title: 'Help - Appy',
-  description: 'Page description',
-}
+  title: "Help - Blendify",
+  description: "Page description",
+};
 
-import PageIllustration from '@/components/page-illustration'
-import Hero from '@/components/hero-help'
-import Content from './content'
-import RelatedLinks from '@/components/related-links'
+import Hero from "@/components/hero-help";
+import PageIllustration from "@/components/page-illustration";
+import RelatedLinks from "@/components/related-links";
+import Content from "./content";
 
 export default function Help() {
   return (
     <>
       {/*  Page illustration */}
-      <div className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
+      <div
+        className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1"
+        aria-hidden="true"
+      >
         <PageIllustration />
-      </div>    
+      </div>
       <Hero />
       <Content />
       <RelatedLinks />
     </>
-  )
+  );
 }
