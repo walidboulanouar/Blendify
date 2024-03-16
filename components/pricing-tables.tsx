@@ -123,6 +123,38 @@ export default function PricingTables() {
                 </a>
               </div>
             </div>
+            <div
+              className="flex flex-col h-full p-6 bg-white dark:bg-gray-800 shadow"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <div className="grow mb-4 pb-4">
+                <div className="flex justify-between items-center mb-1">
+                  <div className="text-xl font-bold font-red-hat-display">
+                    Free
+                  </div>
+                </div>
+                <div className="font-red-hat-display inline-flex items-baseline mb-2">
+                  <span className="h4 text-gray-600 dark:text-gray-400">$</span>
+                  <span className="h3">0</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">
+                    /month
+                  </span>
+                </div>
+                <div className="text-gray-500 dark:text-gray-400">
+                  — Tailored training for teams & Advanced analytics and
+                  reporting
+                </div>
+              </div>
+              <div className="mt-24">
+                <a
+                  className="btn-sm text-white bg-purple-500 hover:bg-purple-400 dark:text-teal-400 dark:bg-gray-700 dark:hover:bg-gray-600 w-full"
+                  href="#0"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
 
             {/* Pricing features */}
             <div className="sm:order-first">
