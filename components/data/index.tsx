@@ -189,22 +189,19 @@ export const guide = {
     {
       name: "Upload Your Picture & Enter Your Imagination ",
       description: "Start by typing in your dream scenario into Blendify AI.",
-      imageUrl:
-        "https://plugins-media.makeupar.com/smb/blog/post/2023-04-20/74952bce-3e37-4aff-b982-c778b14cfa5a.jpg", // Replace with the URL to the image showing the input screen of your app.
+      imageUrl: "/images/step1.png", // Replace with the URL to the image showing the input screen of your app.
     },
     {
       name: "Choose Your Style",
       description:
         "Pick from diverse styles to match your vision, or fine-tune details for a perfect fit.",
-      imageUrl:
-        "https://plugins-media.makeupar.com/smb/blog/post/2023-04-20/74952bce-3e37-4aff-b982-c778b14cfa5a.jpg", // Replace with the URL to the image showing the style selection screen of your app.
+      imageUrl: "/images/step2.png",
     },
     {
       name: "Witness the Magic",
       description:
         "In moments, your personalized image is ready to amaze you and the world.",
-      imageUrl:
-        "https://plugins-media.makeupar.com/smb/blog/post/2023-04-20/74952bce-3e37-4aff-b982-c778b14cfa5a.jpg", // Replace with the URL to the image showing the final AI-generated image.
+      imageUrl: "/images/step3.png",
     },
   ],
 };

@@ -37,7 +37,7 @@ export default function PricingTables() {
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4 text-gray-600 dark:text-gray-400">$</span>
-                  <span className="h3">50</span>
+                  <span className="h3">70</span>
                   <span className="font-medium text-gray-500 dark:text-gray-400">
                     /billed yearly
                   </span>
@@ -71,7 +71,7 @@ export default function PricingTables() {
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
                   <span className="h4 text-gray-600 dark:text-gray-400">$</span>
-                  <span className="h3">8</span>
+                  <span className="h3">9</span>
                   <span className="font-medium text-gray-500 dark:text-gray-400">
                     /billed Monthly
                   </span>
@@ -151,7 +151,7 @@ export default function PricingTables() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Unlimited Images</span>
+                  <span>200 Images</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg
