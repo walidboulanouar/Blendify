@@ -134,25 +134,18 @@ export default function ModalVideoIphone({
             leaveTo="opacity-0 scale-95"
           >
             <div className="flex items-center justify-center">
-              <Dialog.Panel className="relative w-full max-w-xs sm:max-w-sm">
+              <Dialog.Panel className=" w-full max-w-xs sm:max-w-sm">
                 {/* iPhone mockup */}
-                <Image
-                  src={IphoneMockup}
-                  width={300}
-                  height={674}
-                  priority
-                  alt="iPhone mockup"
-                  aria-hidden="false"
-                />
+
                 {/* Video player */}
                 <video
                   ref={videoRef}
                   width={500}
                   height={2000}
-                  className="absolute  pb-10 pr-6  right-[1%] bottom-[4%] max-w-full mx-auto md:mr-0 md:max-w-none"
+                  className="relative  pb-10 pr-6  right-[1%] bottom-[4%] max-w-full mx-auto md:mr-0 md:max-w-none"
                   controls
                   style={{ maxWidth: "95%" }}
-                  aria-hidden="true"
+                  aria-hidden="false"
                 >
                   <source src={video} type="video/mp4" />
                   Your browser does not support the video tag.
