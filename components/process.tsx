@@ -96,7 +96,7 @@ function Process() {
                   </div>
                 )}
                 {/* Number */}
-                <div className="w-12 h-12 rounded-full bg-primary-light dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">
+                <div className="w-12 h-12 rounded-full bg-teal-500 dark:bg-teal-600 dark:bg-opacity-25 flex justify-center items-center text-white dark:text-teal-400 font-medium mb-8 lg:mb-12">
                   {i + 1}
                 </div>
                 <h2 className="h4 text-center font-red-hat-display h-24">
