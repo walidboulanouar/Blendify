@@ -76,7 +76,7 @@ Dive deeper into **Blendify AI** with our array of resources and demonstrations.
 Experience **Blendify AI** firsthand by visiting our live demonstration. Discover the capabilities and user experience of our AI-powered platform.
 
 - [**Blendify AI Demo**](https://blendify-ai.streamlit.app/)
-
+-  [**Blendify AI repository**](https://github.com/alami-oussama/Blendify-AI)
 ## Design Mockups
 
 Take a closer look at our design process and the user interface for both our mobile application and website through our Figma prototypes.
