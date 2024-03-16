@@ -143,7 +143,7 @@ export default function PricingTables() {
                 </div>
                 <div className="text-gray-500 dark:text-gray-400">
                   — Tailored training for teams & Advanced analytics and
-                  reporting
+                  reporting & API integration
                 </div>
               </div>
               <div className="mt-24">
