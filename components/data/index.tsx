@@ -21,25 +21,52 @@ export const useCases = {
       icon: RiEarthLine,
       prompts: [
         {
-          title: "Safari Adventure",
-          headline: "Capture Your Safari Excursions",
+          title: "Marrakesh Marvel",
           description:
-            "Imagine standing amidst the vast savannah with the wildlife around. Bring this scene to life.",
-          cta: "Create with Blendify",
+            "A woman exploring the vibrant streets of Marrakesh, surrounded by bustling markets and historic architecture.",
+          headline: "Exploring the Vibrant Life of Marrakesh",
         },
         {
-          title: "Historical Landmarks",
-          headline: "Relive History with Every Image",
+          title: "Machu Picchu Mystique",
           description:
-            "Visualize yourself exploring the ancient ruins of Rome or the pyramids of Egypt.",
-          cta: "Create with Blendify",
+            "A woman standing at the edge of Machu Picchu, overlooking the ancient Incan ruins with awe and wonder.",
+          headline: "Awe at the Ancient Incan Ruins",
         },
         {
-          title: "Tropical Paradise",
-          headline: "Your Escape to Paradise",
+          title: "Halong Bay Voyage",
           description:
-            "Craft images of you basking under the sun in a tropical island paradise.",
-          cta: "Create with Blendify",
+            "A girl sailing on a traditional boat in Halong Bay, amidst towering limestone islands and emerald waters.",
+          headline: "Sailing Amidst Emerald Waters",
+        },
+        {
+          title: "Sahara Sunset Adventure",
+          description:
+            "A girl riding a camel across the vast dunes of the Sahara Desert at sunset, embarking on an adventure of a lifetime.",
+          headline: "Sunset Ride Across the Sahara",
+        },
+        {
+          title: "Kyoto Spring Serenity",
+          description:
+            "A girl wandering through the cherry blossom-filled streets of Kyoto, experiencing the serene beauty of spring in Japan.",
+          headline: "Wandering in Cherry Blossom Serenity",
+        },
+        {
+          title: "Amazon Rainforest Trek",
+          description:
+            "A man trekking through the Amazon Rainforest, surrounded by exotic wildlife and dense foliage.",
+          headline: "Trekking Through Exotic Wilderness",
+        },
+        {
+          title: "Antarctic Expedition",
+          description:
+            "A man capturing the moment as he stands before the icy expanse of Antarctica, penguins marching in the background.",
+          headline: "Embracing the Icy Expanse of Antarctica",
+        },
+        {
+          title: "Maldivian Dawn",
+          description:
+            "A man enjoying the tranquil beaches of the Maldives, the crystal-clear water reflecting the sky at sunrise.",
+          headline: "Tranquility at Maldivian Sunrise",
         },
       ],
     },
@@ -48,25 +75,52 @@ export const useCases = {
       icon: RiTShirt2Line,
       prompts: [
         {
-          title: "Haute Couture",
-          headline: "Dress in the Elegance of High Fashion",
+          title: "Tokyo Futurism",
           description:
-            "Envision yourself in the latest runway looks from Paris or Milan.",
-          cta: "Create with Blendify",
+            "A woman in a bold, avant-garde outfit, capturing the essence of futuristic fashion on the streets of Tokyo.",
+          headline: "Avant-Garde Fashion in Tokyo",
         },
         {
-          title: "Streetwear Vibes",
-          headline: "Urban Style, Captured",
+          title: "Parisian Timelessness",
           description:
-            "Generate images sporting urban streetwear in the city's gritty backdrops.",
-          cta: "Create with Blendify",
+            "A woman adorned in a classic Chanel suit, embodying timeless elegance at a Paris café.",
+          headline: "Timeless Elegance in Paris",
         },
         {
-          title: "Vintage Classics",
-          headline: "Throwback to Timeless Fashion",
+          title: "Carnival Spirit",
           description:
-            "Merge past and present by donning vintage outfits in classic settings.",
-          cta: "Create with Blendify",
+            "A girl in a vibrant, patterned dress, embodying the lively spirit of a Brazilian carnival.",
+          headline: "Lively Brazilian Carnival Spirit",
+        },
+        {
+          title: "Scandinavian Simplicity",
+          description:
+            "A girl in a chic, minimalist Scandinavian design outfit, reflecting modern simplicity.",
+          headline: "Modern Simplicity in Scandinavian Design",
+        },
+        {
+          title: "Retro Music Festival",
+          description:
+            "A girl sporting a retro 70s look, complete with bell-bottoms and a psychedelic print, at a music festival.",
+          headline: "Retro Vibes at a Music Festival",
+        },
+        {
+          title: "New York Sophistication",
+          description:
+            "A man in a sleek, Italian tailored suit, exuding sophistication at a New York skyline rooftop event.",
+          headline: "Sophistication on the New York Skyline",
+        },
+        {
+          title: "Heritage in Color",
+          description:
+            "A man wearing traditional Indian Sherwani, showcasing the rich heritage and colors at a wedding ceremony.",
+          headline: "Colorful Heritage at a Wedding",
+        },
+        {
+          title: "Rockstar Vibes",
+          description:
+            "A man in an edgy, leather jacket and dark jeans, channeling a rockstar vibe at a concert.",
+          headline: "Channeling the Rockstar Vibe",
         },
       ],
     },
@@ -75,25 +129,52 @@ export const useCases = {
       icon: RiUserStarLine,
       prompts: [
         {
-          title: "Corporate Leader",
-          headline: "Exude Leadership in Every Image",
+          title: "Urban Professionalism",
           description:
-            "Showcase your professional side with AI-generated corporate portraits.",
-          cta: "Create with Blendify",
+            "A woman in a sharp, professional blazer, confidently standing against the skyline of a bustling city.",
+          headline: "Confidence Against the City Skyline",
         },
         {
-          title: "Creative Mind",
-          headline: "Artistic Flair in Your Portraits",
+          title: "Visionary Leadership",
           description:
-            "Let's picture you in a setting that reflects your creativity and spirit.",
-          cta: "Create with Blendify",
+            "A woman in a sophisticated office setting, reflecting leadership and vision.",
+          headline: "Leadership and Vision in the Office",
         },
         {
-          title: "Tech Innovator",
-          headline: "Visualize the Future of Technology",
+          title: "Futuristic Learning",
           description:
-            "Place yourself at the forefront of innovation with futuristic tech-themed portraits.",
-          cta: "Create with Blendify",
+            "A girl in a modern classroom, engaging with futuristic gadgets, poised and ready for learning.",
+          headline: "Engaging with the Future of Learning",
+        },
+        {
+          title: "Young Scientist",
+          description:
+            "A girl presenting at a science fair, displaying confidence and intelligence.",
+          headline: "Confidence and Intelligence at the Science Fair",
+        },
+        {
+          title: "Creativity Unleashed",
+          description:
+            "A girl at a creative studio, surrounded by artworks, embodying creativity and innovation.",
+          headline: "Embodying Creativity and Innovation",
+        },
+        {
+          title: "Global Keynote",
+          description:
+            "A man in a tailored suit, delivering a keynote at an international conference.",
+          headline: "Delivering Insights on the Global Stage",
+        },
+        {
+          title: "Startup Synergy",
+          description:
+            "A man in a smart casual outfit, brainstorming with a team in a high-tech startup environment.",
+          headline: "Brainstorming in a High-Tech Startup",
+        },
+        {
+          title: "Culinary Excellence",
+          description:
+            "A man in a professional chef's attire, crafting culinary masterpieces in a gourmet kitchen.",
+          headline: "Crafting Culinary Masterpieces",
         },
       ],
     },
@@ -102,25 +183,52 @@ export const useCases = {
       icon: RiGalleryLine,
       prompts: [
         {
-          title: "Celestial Nights",
-          headline: "Starry Dreams Come to Life",
+          title: "Sky Island Serenity",
           description:
-            "Float amongst the stars and cosmic auroras in your personalized dreamscapes.",
-          cta: "Create with Blendify",
+            "A woman img standing on a floating island in the sky, clouds drifting lazily by in a serene, endless blue.",
+          headline: "Serenity Above the Clouds",
         },
         {
-          title: "Mystic Forests",
-          headline: "Unveil the Secrets of Enchanted Woods",
+          title: "Luminescent Forest Wanderer",
           description:
-            "Generate mystical scenes of you exploring lush, ancient forests shrouded in mist.",
-          cta: "Create with Blendify",
+            "A woman img walking through a luminescent forest, where trees sparkle with bioluminescent light and mystical creatures roam.",
+          headline: "Wandering in Bioluminescent Wonder",
         },
         {
-          title: "Underwater Realms",
-          headline: "Dive into the Depths of Imagination",
+          title: "Underwater City Explorer",
           description:
-            "Swim with the vibrant sea life in the hidden depths of the ocean in your images.",
-          cta: "Create with Blendify",
+            "A girl img discovering a hidden underwater city, its ancient, coral-covered buildings glowing with ethereal light.",
+          headline: "Discovering the Glow of the Depths",
+        },
+        {
+          title: "Desert Secrets Unveiler",
+          description:
+            "A girl img wandering in a desert, where the sand shifts to reveal hidden messages and pathways under a starlit sky.",
+          headline: "Unveiling Secrets Under the Stars",
+        },
+        {
+          title: "Dragonborne Voyager",
+          description:
+            "A girl img sitting atop a giant, gentle dragon, flying over a landscape where mountains and rivers defy gravity.",
+          headline: "Voyage Beyond Gravity",
+        },
+        {
+          title: "Futuristic City Navigator",
+          description:
+            "A man img exploring a futuristic city where architecture defies physics, with buildings that twist and turn into the clouds.",
+          headline: "Navigating the City of Tomorrow",
+        },
+        {
+          title: "Eternal Aurora Explorer",
+          description:
+            "A man img in a surreal world where the northern lights fill the entire sky, illuminating a night that never ends.",
+          headline: "Illuminated by Eternal Night",
+        },
+        {
+          title: "Mystical Forest Guardian",
+          description:
+            "A man img standing at the edge of an ancient, mystical forest that bridges the worlds of the living and the spirits.",
+          headline: "Guarding the Mystical Threshold",
         },
       ],
     },
@@ -156,25 +264,40 @@ export const useCases = {
       icon: RiPaletteLine,
       prompts: [
         {
-          title: "Modern Art",
-          headline: "Contemporary Art, Personalized",
+          title: "Contemporary Art Fusion",
           description:
-            "Transform yourself into a piece of modern art, styled by AI creativity.",
-          cta: "Create with Blendify",
+            "A woman img envisioned as a dynamic, contemporary art piece, embodying bold colors and geometric shapes.",
+          headline: "Bold Colors, Geometric Fusion",
         },
         {
-          title: "Classical Paintings",
-          headline: "Step Into a Masterpiece",
+          title: "Minimalist Modernity",
           description:
-            "Become part of the classical art scenes from the Renaissance to the Baroque era.",
-          cta: "Create with Blendify",
+            "A man img transformed into a minimalist modern artwork, where simplicity and complexity meet.",
+          headline: "Simplicity Meets Complexity",
         },
         {
-          title: "Abstract Visions",
-          headline: "Abstract Concepts, Defined by You",
+          title: "Renaissance Rebirth",
           description:
-            "Let's shape abstract visions with your likeness, styled in avant-garde themes.",
-          cta: "Create with Blendify",
+            "A girl img integrated into a Renaissance painting, surrounded by the rich details and depth characteristic of the era.",
+          headline: "Rich Details of the Renaissance",
+        },
+        {
+          title: "Baroque Drama",
+          description:
+            "A man img as part of a Baroque scene, capturing the dramatic light and shadow of classical artistry.",
+          headline: "Dramatic Light and Shadow",
+        },
+        {
+          title: "Abstract Emotion",
+          description:
+            "A woman img reimagined in an abstract style, where emotions are conveyed through avant-garde patterns and textures.",
+          headline: "Conveying Emotions Through Abstract",
+        },
+        {
+          title: "Surreal Likeness",
+          description:
+            "A man img portrayed within an abstract vision, blending human likeness with surreal, avant-garde themes.",
+          headline: "Blending Humanity with Surrealism",
         },
       ],
     },

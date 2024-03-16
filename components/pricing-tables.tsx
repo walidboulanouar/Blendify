@@ -20,7 +20,7 @@ export default function PricingTables() {
           </div>
 
           {/* Pricing tables */}
-          <div className="max-w-xs mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-4 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
+          <div className="max-w-xs mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-5 items-start sm:max-w-none md:max-w-3xl lg:max-w-none">
             {/* Pricing table 1 */}
             <div
               className="flex flex-col h-full p-6 bg-white dark:bg-gray-800 shadow border-2 border-transparent dark:border-teal-500"
@@ -131,12 +131,14 @@ export default function PricingTables() {
               <div className="grow mb-4 pb-4">
                 <div className="flex justify-between items-center mb-1">
                   <div className="text-xl font-bold font-red-hat-display">
-                    Free
+                    Enterprise
                   </div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
-                  <span className="h4 text-gray-600 dark:text-gray-400">$</span>
-                  <span className="h3">0</span>
+                  <span className="h5 text-gray-600 dark:text-gray-400">
+                    Custom
+                  </span>
+                  <span className="h4">Pricing</span>
                   <span className="font-medium text-gray-500 dark:text-gray-400">
                     /month
                   </span>
