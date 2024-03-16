@@ -71,7 +71,7 @@ export default function Header() {
             <ul className="flex justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/contact"
+                  href="https://blendify-ai.streamlit.app/"
                   className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6"
                 >
                   Try It Now - It's Free
